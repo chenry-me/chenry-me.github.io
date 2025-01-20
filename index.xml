@@ -1,42 +1,106 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>GREETINGS, MORTAL</title>
-        <link>https://chenrenyu.com/</link>
-        <description>这里是AK的博客平台</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>inbox@chenrenyu.com (AK)</managingEditor>
-            <webMaster>inbox@chenrenyu.com (AK)</webMaster><lastBuildDate>Sat, 24 Dec 2022 16:05:30 &#43;0800</lastBuildDate>
-            <atom:link href="https://chenrenyu.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>使用Docker Mailserver搭建邮件服务器并用Roundcube Webmail管理</title>
-    <link>https://chenrenyu.com/docker-mailserver-and-roundcube-webmail/</link>
-    <pubDate>Sat, 24 Dec 2022 16:05:30 &#43;0800</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/docker-mailserver-and-roundcube-webmail/</guid>
-    <description><![CDATA[配置Docker Mailserver 下载配置文件，要对docker-compose.yml稍作修改，添加邮件中继。 1 2 3 4 5 DMS_GITHUB_URL=&#39;https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master&#39; wget &#34;${DMS_GITHUB_URL}/docker-compose.yml&#34; wget &#34;${DMS_GITHUB_URL}/mailserver.env&#34; # wget &#34;${DMS_GITHUB_URL}/setup.sh&#34; # chmod a+x ./setup.sh 完整配置文]]></description>
-</item>
-<item>
-    <title>docker镜像下载慢/失败的解决方法 </title>
-    <link>https://chenrenyu.com/solutions-for-docker-stuck-on-pull/</link>
-    <pubDate>Sun, 20 Nov 2022 00:00:00 &#43;0000</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/solutions-for-docker-stuck-on-pull/</guid>
-    <description><![CDATA[方案一：修改镜像源 这个方法在csdn、知乎那些地方说得太多了，我相信大部分人搜索到的第一个方法就是这个。尽管如此我还是重新说一下方法。 编辑配]]></description>
-</item>
-<item>
-    <title>如何食用Bitwarden密码管理</title>
-    <link>https://chenrenyu.com/how-to-use-bitwarden/</link>
-    <pubDate>Fri, 28 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/how-to-use-bitwarden/</guid>
-    <description><![CDATA[引言 我猜测看到这篇文章的朋友，可能很多连什么是bitwarden都不知道。不着急，我们先从密码管理开始讲起。 如今我们每天有大量的时间在网上冲]]></description>
-</item>
-<item>
-    <title>第一篇文章</title>
-    <link>https://chenrenyu.com/first-post/</link>
-    <pubDate>Sun, 02 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/first-post/</guid>
-    <description><![CDATA[hello, world.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GREETINGS, MORTAL</title>
+    <link>https://chenry-me.github.io/</link>
+    <description>Recent content on GREETINGS, MORTAL</description>
+    <image>
+      <title>GREETINGS, MORTAL</title>
+      <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 24 Dec 2022 16:05:30 +0800</lastBuildDate>
+    <atom:link href="https://chenry-me.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用Docker Mailserver搭建邮件服务器并用Roundcube Webmail管理</title>
+      <link>https://chenry-me.github.io/posts/how-to-run-your-own-mailserver-with-docker-mailserver-and-roundcube-webmail/</link>
+      <pubDate>Sat, 24 Dec 2022 16:05:30 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-run-your-own-mailserver-with-docker-mailserver-and-roundcube-webmail/</guid>
+      <description>&lt;h2 id=&#34;配置docker-mailserver&#34;&gt;配置Docker Mailserver&lt;/h2&gt;
+&lt;p&gt;下载配置文件，要对docker-compose.yml稍作修改，添加邮件中继。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;DMS_GITHUB_URL&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DMS_GITHUB_URL&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/docker-compose.yml&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DMS_GITHUB_URL&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/mailserver.env&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# wget &amp;#34;${DMS_GITHUB_URL}/setup.sh&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# chmod a+x ./setup.sh&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完整配置文件如下，其中&amp;lt;&amp;gt;内的信息自行替换，mailserver.env为之前下载的原始文件，没有修改。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何解决国内docker镜像下载慢或失败的问题</title>
+      <link>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</link>
+      <pubDate>Sun, 20 Nov 2022 15:37:25 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</guid>
+      <description>&lt;h2 id=&#34;方案一修改镜像源&#34;&gt;方案一：修改镜像源&lt;/h2&gt;
+&lt;p&gt;这个方法在csdn、知乎那些地方说得太多了，我相信大部分人搜索到的第一个方法就是这个。尽管如此我还是重新说一下方法。&lt;/p&gt;
+&lt;p&gt;编辑配置文件，如果文件不存在，以下命令会自动创建。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何食用Bitwarden密码管理</title>
+      <link>https://chenry-me.github.io/posts/how-to-take-a-bite-of-bitwarden/</link>
+      <pubDate>Fri, 28 Jan 2022 19:23:42 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-take-a-bite-of-bitwarden/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;我猜测看到这篇文章的朋友，可能很多连什么是bitwarden都不知道。不着急，我们先从密码管理开始讲起。&lt;/p&gt;
+&lt;p&gt;如今我们每天有大量的时间在网上冲浪，几乎是个网站都会要求你提供一个用户名和密码，基于此为你创建一个账户。在这样的环境背景下，一个人所拥有的网络账户中当然会包括微信、Paypal这类的高价值账户。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第一篇文章</title>
+      <link>https://chenry-me.github.io/posts/first-post/</link>
+      <pubDate>Sun, 02 Jan 2022 22:08:57 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;hello, world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://chenry-me.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chenry-me.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;这里是ak&#34;&gt;这里是AK&lt;/h2&gt;
+&lt;p&gt;我是西南财经大学的一个普通学生，毕业了，在银行做技术。&lt;/p&gt;
+&lt;p&gt;搭建这个博客主要是为了好玩。&lt;/p&gt;
+&lt;p&gt;感谢你的驻足。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>小站大事记</title>
+      <link>https://chenry-me.github.io/little-site-big-news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chenry-me.github.io/little-site-big-news/</guid>
+      <description>&lt;h2 id=&#34;时间轴&#34;&gt;时间轴&lt;/h2&gt;
+&lt;h3 id=&#34;20211211&#34;&gt;2021/12/11&lt;/h3&gt;
+&lt;p&gt;获得 DigitalOcean 的学生优惠，初次使用服务器。&lt;/p&gt;
+&lt;h3 id=&#34;20211221&#34;&gt;2021/12/21&lt;/h3&gt;
+&lt;p&gt;获得并启用 chenry.me 域名。&lt;/p&gt;
+&lt;h3 id=&#34;20211227&#34;&gt;2021/12/27&lt;/h3&gt;
+&lt;p&gt;考虑国内访问速度，购入阿里云轻量服务器主机。事实证明买小了。&lt;/p&gt;
+&lt;h3 id=&#34;20220314&#34;&gt;2022/03/14&lt;/h3&gt;
+&lt;p&gt;经过长时间对线，获得 Azure 学生包，计划转向 Azure。
+Azure 服务器计划托管国外站点。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>联系</title>
+      <link>https://chenry-me.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chenry-me.github.io/contact/</guid>
+      <description>&lt;h2 id=&#34;与我联系&#34;&gt;与我联系&lt;/h2&gt;
+&lt;h3 id=&#34;邮箱&#34;&gt;邮箱&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:inbox@chenry.me&#34;&gt;inbox@chenry.me&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;邮件请注明来意，正常情况下我会回信。&lt;/p&gt;
+&lt;h3 id=&#34;qq&#34;&gt;QQ&lt;/h3&gt;
+&lt;p&gt;1175364758&lt;/p&gt;
+&lt;p&gt;QQ请备注，我看到了会给你回复。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>隐私政策</title>
+      <link>https://chenry-me.github.io/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chenry-me.github.io/privacy/</guid>
+      <description>&lt;h1 id=&#34;隐私政策&#34;&gt;隐私政策&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;生效日期：&lt;/strong&gt; [2023.1.1] 起&lt;/p&gt;
+&lt;p&gt;我们非常重视您的隐私。本隐私政策描述了我们收集、使用和共享您个人信息的做法。请在使用我们的服务之前仔细阅读本隐私政策。&lt;/p&gt;
+&lt;h2 id=&#34;信息收集与使用&#34;&gt;信息收集与使用&lt;/h2&gt;
+&lt;p&gt;我们可能会收集以下类型的个人信息：&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

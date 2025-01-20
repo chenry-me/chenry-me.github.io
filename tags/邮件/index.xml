@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Docker on GREETINGS, MORTAL</title>
-    <link>https://chenry-me.github.io/tags/docker/</link>
-    <description>Recent content in Docker on GREETINGS, MORTAL</description>
+    <title>邮件 on GREETINGS, MORTAL</title>
+    <link>https://chenry-me.github.io/tags/%E9%82%AE%E4%BB%B6/</link>
+    <description>Recent content in 邮件 on GREETINGS, MORTAL</description>
     <image>
       <title>GREETINGS, MORTAL</title>
       <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 24 Dec 2022 16:05:30 +0800</lastBuildDate>
-    <atom:link href="https://chenry-me.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chenry-me.github.io/tags/%E9%82%AE%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用Docker Mailserver搭建邮件服务器并用Roundcube Webmail管理</title>
       <link>https://chenry-me.github.io/posts/how-to-run-your-own-mailserver-with-docker-mailserver-and-roundcube-webmail/</link>
@@ -26,15 +26,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# wget &amp;#34;${DMS_GITHUB_URL}/setup.sh&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# chmod a+x ./setup.sh&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;完整配置文件如下，其中&amp;lt;&amp;gt;内的信息自行替换，mailserver.env为之前下载的原始文件，没有修改。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何解决国内docker镜像下载慢或失败的问题</title>
-      <link>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</link>
-      <pubDate>Sun, 20 Nov 2022 15:37:25 +0800</pubDate>
-      <guid>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</guid>
-      <description>&lt;h2 id=&#34;方案一修改镜像源&#34;&gt;方案一：修改镜像源&lt;/h2&gt;
-&lt;p&gt;这个方法在csdn、知乎那些地方说得太多了，我相信大部分人搜索到的第一个方法就是这个。尽管如此我还是重新说一下方法。&lt;/p&gt;
-&lt;p&gt;编辑配置文件，如果文件不存在，以下命令会自动创建。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,16 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Linux - Tag - GREETINGS, MORTAL</title>
-        <link>https://chenrenyu.com/tags/linux/</link>
-        <description>Linux - Tag - GREETINGS, MORTAL</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>inbox@chenrenyu.com (AK)</managingEditor>
-            <webMaster>inbox@chenrenyu.com (AK)</webMaster><lastBuildDate>Sun, 20 Nov 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chenrenyu.com/tags/linux/" rel="self" type="application/rss+xml" /><item>
-    <title>docker镜像下载慢/失败的解决方法 </title>
-    <link>https://chenrenyu.com/solutions-for-docker-stuck-on-pull/</link>
-    <pubDate>Sun, 20 Nov 2022 00:00:00 &#43;0000</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/solutions-for-docker-stuck-on-pull/</guid>
-    <description><![CDATA[方案一：修改镜像源 这个方法在csdn、知乎那些地方说得太多了，我相信大部分人搜索到的第一个方法就是这个。尽管如此我还是重新说一下方法。 编辑配]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on GREETINGS, MORTAL</title>
+    <link>https://chenry-me.github.io/tags/linux/</link>
+    <description>Recent content in Linux on GREETINGS, MORTAL</description>
+    <image>
+      <title>GREETINGS, MORTAL</title>
+      <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Nov 2022 15:37:25 +0800</lastBuildDate>
+    <atom:link href="https://chenry-me.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何解决国内docker镜像下载慢或失败的问题</title>
+      <link>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</link>
+      <pubDate>Sun, 20 Nov 2022 15:37:25 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-solve-the-problem-of-slow-or-failed-docker-image-downloads-in-china/</guid>
+      <description>&lt;h2 id=&#34;方案一修改镜像源&#34;&gt;方案一：修改镜像源&lt;/h2&gt;
+&lt;p&gt;这个方法在csdn、知乎那些地方说得太多了，我相信大部分人搜索到的第一个方法就是这个。尽管如此我还是重新说一下方法。&lt;/p&gt;
+&lt;p&gt;编辑配置文件，如果文件不存在，以下命令会自动创建。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

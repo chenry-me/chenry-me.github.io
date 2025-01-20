@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on GREETINGS, MORTAL</title>
+    <link>https://chenry-me.github.io/tags/</link>
+    <description>Recent content in Tags on GREETINGS, MORTAL</description>
+    <image>
+      <title>GREETINGS, MORTAL</title>
+      <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 24 Dec 2022 16:05:30 +0800</lastBuildDate>
+    <atom:link href="https://chenry-me.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://chenry-me.github.io/tags/docker/</link>
+      <pubDate>Sat, 24 Dec 2022 16:05:30 +0800</pubDate>
+      <guid>https://chenry-me.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>邮件</title>
+      <link>https://chenry-me.github.io/tags/%E9%82%AE%E4%BB%B6/</link>
+      <pubDate>Sat, 24 Dec 2022 16:05:30 +0800</pubDate>
+      <guid>https://chenry-me.github.io/tags/%E9%82%AE%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://chenry-me.github.io/tags/linux/</link>
+      <pubDate>Sun, 20 Nov 2022 15:37:25 +0800</pubDate>
+      <guid>https://chenry-me.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>安全</title>
+      <link>https://chenry-me.github.io/tags/%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Fri, 28 Jan 2022 19:23:42 +0800</pubDate>
+      <guid>https://chenry-me.github.io/tags/%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

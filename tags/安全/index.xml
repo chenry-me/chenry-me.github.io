@@ -1,16 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>安全 - Tag - GREETINGS, MORTAL</title>
-        <link>https://chenrenyu.com/tags/%E5%AE%89%E5%85%A8/</link>
-        <description>安全 - Tag - GREETINGS, MORTAL</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>inbox@chenrenyu.com (AK)</managingEditor>
-            <webMaster>inbox@chenrenyu.com (AK)</webMaster><lastBuildDate>Fri, 28 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chenrenyu.com/tags/%E5%AE%89%E5%85%A8/" rel="self" type="application/rss+xml" /><item>
-    <title>如何食用Bitwarden密码管理</title>
-    <link>https://chenrenyu.com/how-to-use-bitwarden/</link>
-    <pubDate>Fri, 28 Jan 2022 00:00:00 &#43;0000</pubDate>
-    <author>AK</author>
-    <guid>https://chenrenyu.com/how-to-use-bitwarden/</guid>
-    <description><![CDATA[引言 我猜测看到这篇文章的朋友，可能很多连什么是bitwarden都不知道。不着急，我们先从密码管理开始讲起。 如今我们每天有大量的时间在网上冲]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>安全 on GREETINGS, MORTAL</title>
+    <link>https://chenry-me.github.io/tags/%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 安全 on GREETINGS, MORTAL</description>
+    <image>
+      <title>GREETINGS, MORTAL</title>
+      <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Jan 2022 19:23:42 +0800</lastBuildDate>
+    <atom:link href="https://chenry-me.github.io/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何食用Bitwarden密码管理</title>
+      <link>https://chenry-me.github.io/posts/how-to-take-a-bite-of-bitwarden/</link>
+      <pubDate>Fri, 28 Jan 2022 19:23:42 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-take-a-bite-of-bitwarden/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;我猜测看到这篇文章的朋友，可能很多连什么是bitwarden都不知道。不着急，我们先从密码管理开始讲起。&lt;/p&gt;
+&lt;p&gt;如今我们每天有大量的时间在网上冲浪，几乎是个网站都会要求你提供一个用户名和密码，基于此为你创建一个账户。在这样的环境背景下，一个人所拥有的网络账户中当然会包括微信、Paypal这类的高价值账户。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
