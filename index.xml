@@ -9,10 +9,19 @@
       <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Dec 2022 16:05:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 21:35:26 +0800</lastBuildDate>
     <atom:link href="https://chenry-me.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何零成本对邮件进行签名和加密——Mailserver 进阶篇</title>
+      <link>https://chenry-me.github.io/posts/how-to-sign-and-encrypt-emails-for-free-mailserver-advanced/</link>
+      <pubDate>Wed, 29 Jan 2025 21:35:26 +0800</pubDate>
+      <guid>https://chenry-me.github.io/posts/how-to-sign-and-encrypt-emails-for-free-mailserver-advanced/</guid>
+      <description>&lt;h2 id=&#34;邮件加密&#34;&gt;邮件加密&lt;/h2&gt;
+&lt;p&gt;我对邮件签名和加密的兴趣源自 Thunderbird，因为在使用时发现有个很显眼的“端对端加密”功能，支持 OpenPGP 和 S/MIME 两种方式。&lt;/p&gt;
+&lt;p&gt;OpenPGP（Pretty Good Privacy，PGP 的开放标准）和 S/MIME（Secure/Multipurpose Internet Mail Extensions）是两种广泛用于电子邮件签名与加密的标准协议。它们的主要目标是提供邮件的机密性、完整性和身份验证，但在实现方式和应用场景上有所不同。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>如何使用Docker Mailserver搭建邮件服务器并用Roundcube Webmail管理</title>
       <link>https://chenry-me.github.io/posts/how-to-run-your-own-mailserver-with-docker-mailserver-and-roundcube-webmail/</link>
