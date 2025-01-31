@@ -6,11 +6,11 @@
     <description>Recent content on GREETINGS, MORTAL</description>
     <image>
       <title>GREETINGS, MORTAL</title>
-      <url>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://chenry-me.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://chenry-me.github.io/images/avatar.jpg</url>
+      <link>https://chenry-me.github.io/images/avatar.jpg</link>
     </image>
     <generator>Hugo -- 0.142.0</generator>
-    <language>zh-cn</language>
+    <language>zh</language>
     <lastBuildDate>Wed, 29 Jan 2025 21:35:26 +0800</lastBuildDate>
     <atom:link href="https://chenry-me.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -77,13 +77,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://chenry-me.github.io/little-site-big-news/</guid>
       <description>&lt;h2 id=&#34;时间轴&#34;&gt;时间轴&lt;/h2&gt;
-&lt;h3 id=&#34;20211211&#34;&gt;2021/12/11&lt;/h3&gt;
+&lt;h3 id=&#34;2021&#34;&gt;2021&lt;/h3&gt;
+&lt;h4 id=&#34;12-11&#34;&gt;12-11&lt;/h4&gt;
 &lt;p&gt;获得 DigitalOcean 的学生优惠，初次使用服务器。&lt;/p&gt;
-&lt;h3 id=&#34;20211221&#34;&gt;2021/12/21&lt;/h3&gt;
+&lt;h4 id=&#34;12-21&#34;&gt;12-21&lt;/h4&gt;
 &lt;p&gt;获得并启用 chenry.me 域名。&lt;/p&gt;
-&lt;h3 id=&#34;20211227&#34;&gt;2021/12/27&lt;/h3&gt;
+&lt;h4 id=&#34;12-27&#34;&gt;12-27&lt;/h4&gt;
 &lt;p&gt;考虑国内访问速度，购入阿里云轻量服务器主机。事实证明买小了。&lt;/p&gt;
-&lt;h3 id=&#34;20220314&#34;&gt;2022/03/14&lt;/h3&gt;
+&lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
+&lt;h4 id=&#34;03-14&#34;&gt;03-14&lt;/h4&gt;
 &lt;p&gt;经过长时间对线，获得 Azure 学生包，计划转向 Azure。
 Azure 服务器计划托管国外站点。&lt;/p&gt;</description>
     </item>
@@ -93,12 +95,8 @@ Azure 服务器计划托管国外站点。&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://chenry-me.github.io/contact/</guid>
       <description>&lt;h2 id=&#34;与我联系&#34;&gt;与我联系&lt;/h2&gt;
-&lt;h3 id=&#34;邮箱&#34;&gt;邮箱&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:inbox@chenry.me&#34;&gt;inbox@chenry.me&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;邮件请注明来意，正常情况下我会回信。&lt;/p&gt;
-&lt;h3 id=&#34;qq&#34;&gt;QQ&lt;/h3&gt;
-&lt;p&gt;1175364758&lt;/p&gt;
-&lt;p&gt;QQ请备注，我看到了会给你回复。&lt;/p&gt;</description>
+&lt;p&gt;您可以通过主页上的社交媒体图标与我联系。请简要说明您的来意，以便更高效地交流。&lt;/p&gt;
+&lt;p&gt;感谢您的关注！&lt;/p&gt;</description>
     </item>
     <item>
       <title>隐私政策</title>
@@ -106,10 +104,8 @@ Azure 服务器计划托管国外站点。&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://chenry-me.github.io/privacy/</guid>
       <description>&lt;h1 id=&#34;隐私政策&#34;&gt;隐私政策&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;生效日期：&lt;/strong&gt; [2023.1.1] 起&lt;/p&gt;
-&lt;p&gt;我们非常重视您的隐私。本隐私政策描述了我们收集、使用和共享您个人信息的做法。请在使用我们的服务之前仔细阅读本隐私政策。&lt;/p&gt;
-&lt;h2 id=&#34;信息收集与使用&#34;&gt;信息收集与使用&lt;/h2&gt;
-&lt;p&gt;我们可能会收集以下类型的个人信息：&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;生效日期：&lt;/strong&gt; 2022 年 1 月 1 日&lt;/p&gt;
+&lt;p&gt;我们尊重您的隐私，并希望透明地向您说明本博客如何处理您的数据。本隐私政策适用于您访问和使用本博客时的信息收集与处理方式。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
